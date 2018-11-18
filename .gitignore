@@ -18,3 +18,17 @@ _development_tool
 Gemfile.lock
 *.gem
 .DS_Store
+
+
+# Java Files
+*.class
+# Package file
+*.jar
+*.war
+*.ear
+# Intellij project files
+*.iml
+*.ipr
+*.iws
+.idea/
+target/
