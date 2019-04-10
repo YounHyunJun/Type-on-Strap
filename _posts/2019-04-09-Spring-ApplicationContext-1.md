@@ -1,3 +1,8 @@
+---
+layout: post
+title: "Spring ApplicationContext"
+---
+
 ## Spring Framework
 
 #### 스프링의 핵심이자 자원을 관리하는 ApplicationContext 에 대해서 자세하게 알아보려고 한다.
