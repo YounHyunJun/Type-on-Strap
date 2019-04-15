@@ -17,12 +17,12 @@ ApplicationContext 에서 중요한 부분을 차지하는 BeanFactory 는 스�
 
 BeanFactory 의 기초적인 메소드를 구현하는 Spring 의 AbstractBeanFactory 를 통해서 이유를 찾을 수 있을 거 같아요
 
-이 클래스는 다음과 같죠
+![AbstractBeanFactory Diagrams](https://raw.githubusercontent.com/YounHyunJun/YounHyunJun.github.io/master/img/AbstractBeanFactory_Digagram.PNG)
 
-```java
-public interface ConfigurableBeanFactory extends HierarchicalBeanFactory, SingletonBeanRegistry {}
+여기서 중요하게 봐야할 부분은 AbstractBeanFactory 는 ConfigurableBeanFactory 를 구현하고 이는 HierarchicalBeanFactory 와 SingletonBeanRegistry 를 구현해요
 
-public abstract class AbstractBeanFactory extends FactoryBeanRegistrySupport implements ConfigurableBeanFactory {}
-```
+골자는 BeanFactory 를 지원하기 위한 Registry 가 존재한다는 점이고 이는 빈을 공장에서 가져오기 위한 빈들의 저장소가 필요하다는 것을 의미해요  
 
-여기서 중요하게 봐야할 부분은 ConfigurableBeanFactory 를 구현한다는 점이에요
+여기서는 SingletonBean 저장소를 통해 빈을 관리하고 그 빈들을 BeanFactory 가 가져온 다는 것을 알 수 있죠.
+
+사실 가장 얘기하고 싶었던 부분은 이 빈 팩토리의 최종 구현체 DefaultListableBeanFactory 에 대한 부분이에요.
