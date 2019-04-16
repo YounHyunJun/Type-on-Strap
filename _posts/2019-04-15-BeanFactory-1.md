@@ -25,4 +25,10 @@ BeanFactory 의 기초적인 메소드를 구현하는 Spring 의 AbstractBeanFa
 
 여기서는 SingletonBean 저장소를 통해 빈을 관리하고 그 빈들을 BeanFactory 가 가져온 다는 것을 알 수 있죠.
 
-사실 가장 얘기하고 싶었던 부분은 이 빈 팩토리의 최종 구현체 DefaultListableBeanFactory 에 대한 부분이에요.
+> 정리하자면 BeanFactory 는 빈을 조회하는 인터페이스이지만 BeanRegistry 함께 쓰여 애플리케이션 내의 빈들을 관리하는 역할이라고 생각되요
+
+이 빈팩토리를 구체적으로 알아보기 위해 앞으로 찾아봐야 할 클래스들은 다음과 같아요
+
+![DefaultListableBeanFactory Diagrams](https://raw.githubusercontent.com/YounHyunJun/YounHyunJun.github.io/master/img/DefaultListableBeanFactory_Digagram.PNG)
+
+다음은 SimpleAliasRegistry 에 대해서 포스팅할 예정이에요
