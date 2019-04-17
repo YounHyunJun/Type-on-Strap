@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About
+title: Who am I?
 permalink: /about/
 feature-img: "assets/img/pexels/circuit.jpeg"
 tags: [About, Test]
@@ -8,7 +8,9 @@ tags: [About, Test]
 
 안녕하세요
 
-최근 스프링 공부에 관심이 많은 직장인입니다.
+무언가에 집중하면 최소한 잘한다는 인정은 받고 싶은 윤현준 입니다.<br>
+집중했던 것들: LOL, Starcraft, 당구, 스노우보드<br>
+철학적인 생각을 좋아합니다.
 
 ### 가치관
 
@@ -22,6 +24,6 @@ TMON 에서 서버 개발자로 서비스를 개발/운영하고 있습니다.
 
 ### 관심사
 
+오랜만에 LOL 을 시작하여 GOLD Tier 에 가려고 노력하고 있습니다.
 개인 토이 프로젝트나 독서에 관심이 많습니다.
 프로젝트는 자바나 스프링 위주로 하고 독서는 철학 서적을 주로 읽습니다.
-  
