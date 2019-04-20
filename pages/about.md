@@ -1,10 +1,12 @@
 ---
 layout: page
-title: Who am I?
+title: about
 permalink: /about/
 feature-img: "assets/img/pexels/circuit.jpeg"
 tags: [About, Test]
 ---
+
+# Who Am I
 
 안녕하세요
 
