@@ -8,12 +8,10 @@ title: "Abstract Bean Factory"
 ### ConfigurableBeanFactory 의 구현체
 ### Bean Factory 구현을 위한 추상 기본 클래스
 
-> 앞으로 보완하며 나아갈 예정입니다.
-
 스프링 코드는 클래스를 구현할 때 자신의 SuperClass 에 대해서 주석으로 층을 나누어 구분했습니다.
 각 구분에 대해 중요한 부분을 언급하는 것이 이 클래스를 설명하는데 도움이 될 것 같습니다.
 
-![AbstractBeanFactory Diagrams](https://raw.githubusercontent.com/YounHyunJun/YounHyunJun.github.io/master/img/AbstractBeanFactory-Diagram.PNG)
+![AbstractBeanFactory Diagrams](https://github.com/YounHyunJun/YounHyunJun.github.io/blob/master/img/AbstractBeanFactory_Digagram.PNG)
 
 여기서는 위의 그림에서 빨간 부분인 인터페이스를 구현하는 부분, 자신의 메소드를 구현하는 부분, 확장을 위한 추상메소드를 구현하는 부분으로 나뉘어 설명합니다. 
 

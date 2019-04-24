@@ -8,8 +8,6 @@ title: "Simple Alias Registry"
 ### AliasRegistry 의 구현체
 ### 별칭을 관리하는 저장소
 
-> 앞으로 보완하며 나아갈 예정입니다.
-
 ![SimpleAliasRegistry Diagrams](https://raw.githubusercontent.com/YounHyunJun/YounHyunJun.github.io/master/img/Alias_Diagram.PNG)
 
 AliasRegistry 는 말그대로 별칭을 관리하는 저장소에요 

@@ -7,7 +7,7 @@ title: "FactroyBean Registry Support"
 
 ### FactoryBean 지원을 위한 SingletonBeanRegistry 
 
-> 앞으로 보완하며 나아갈 예정입니다.
+![AbstractBeanFactory Diagrams](https://github.com/YounHyunJun/YounHyunJun.github.io/blob/master/img/FactroyBeanRegistry_Diagram.PNG)
 
 - 이 클래스는 Singleton Bean 저장소로 사용되는 Bean Factory 의 FactoryBean 클래스를 지원합니다.
 - Factory Bean 에 대한 Cache Map 을 가지고 있습니다.
