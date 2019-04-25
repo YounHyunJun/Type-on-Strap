@@ -9,7 +9,6 @@ title: "Abstract Autowire Capable Bean Factory"
 ### 제공하는 기능: 빈 생성, 속성 주입, 자동 주입, 초기화
 
 ![AbstractBeanFactory Diagrams](https://github.com/YounHyunJun/YounHyunJun.github.io/blob/master/img/AbstractAutowireCapableBeanFactory_Diagram.PNG)
-
 #### AbstractBeanFactory 의 추상 메소드인 createBean 을 구현하는 부분이 이 클래스의 핵심이다.
 
 > 실제로 빈을 생성하는 작업을 포함하여 빈에 필요한 여러 정보들을 주입해주는 작업과 초기화 작업을 한다. <br>
