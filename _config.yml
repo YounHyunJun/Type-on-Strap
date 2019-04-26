@@ -5,7 +5,7 @@ url: "https://sylhare.github.io"
 # THEME-SPECIFIC CONFIGURATION
 theme_settings:
   # Meta
-  title: 
+  title: Welcom to Jun's Thinking Repository
   avatar: assets/img/flask.svg
   favicon: assets/favicon.ico
   gravatar: # Email MD5 hash
@@ -16,7 +16,7 @@ theme_settings:
      <p>Homelus's Tech</p>
   header_text_feature_image: assets/img/pexels/triangular.jpeg
   footer_text: >
-   Powered by <a href="https://jekyllrb.com/">Jekyll</a> with <a href="https://github.com/sylhare/Type-on-Strap">Type on Strap</a>
+   Even after a bad harvest there must be sowing -Seneca-
 
   # Icons
   rss: true
@@ -27,7 +27,7 @@ theme_settings:
   facebook:
   flickr:
   gitlab:
-  github: "sylhare"
+  github: "https://github.com/YounHyunJun"
   google_plus:
   instagram:
   keybase:
@@ -45,7 +45,7 @@ theme_settings:
 
   # Scripts / Features 
   google_analytics: # Tracking ID, e.g. "UA-000000-01"
-  disqus_shortname: younhyunjun
+  disqus_shortname: hyun jun
   katex: true # Enable if using math markup
   portfolio: true
   search: true
