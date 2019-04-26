@@ -4,6 +4,7 @@ title: about
 permalink: /about/
 feature-img: "assets/img/pexels/circuit.jpeg"
 tags: [About, Test]
+order: 2
 ---
 
 # Who Am I
