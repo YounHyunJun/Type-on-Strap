@@ -3,7 +3,7 @@ layout: post
 title: "Abstract Bean Factory"
 ---
 
-## AbstractBeanFacotry
+## AbstractBeanFacotry 첫번째
 
 ### ConfigurableBeanFactory 의 구현체
 ### Bean Factory 구현을 위한 추상 기본 클래스
