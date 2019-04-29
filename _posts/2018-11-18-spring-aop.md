@@ -1,6 +1,9 @@
 ---
 layout: post
 title: "토비의 스프링 AOP"
+comments: true
+categories: [Spring]
+tags: [Spring]
 ---
 
 # 토비의 스프링 AOP 를 읽고..
