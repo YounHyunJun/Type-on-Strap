@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Abstract Autowire Capable Bean Factory"
+subtitle: "빈을 생성하는 프로세스"
 ---
 
 ## AbstractAutowireCapableBeanFactory
@@ -13,6 +14,12 @@ title: "Abstract Autowire Capable Bean Factory"
 
 > 실제로 빈을 생성하는 작업을 포함하여 빈에 필요한 여러 정보들을 주입해주는 작업과 초기화 작업을 한다. <br>
 > 빈에 대한 추가 정보를 제공하는 일은 스프링의 확장 포인트인 BPP 를 통해 실행된다.
+
+클래스의 핵심 메소드는 createBean 이다. 이 클래스에서는 
+1. 빈 클래스 결정
+2. 메소드 오버라이드 준비
+3. 프록시를 사용할 경우 BPP 를 이용해 프록시를 생성하여 반환
+4. 빈 생성
 
 실제로 빈을 만드는 메소드는 doCreateBean() 인데 여기서 빈을 생성하기 전 전처리와 생성 후처리 및 초기화와 관련된 모든 작업을 수행한다.
 큰 흐름으로 설명하면 다음과 같다.

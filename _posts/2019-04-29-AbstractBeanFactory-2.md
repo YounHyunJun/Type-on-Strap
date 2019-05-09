@@ -37,11 +37,12 @@ doGetBean's Process
         - 해당 빈 이름들을 종속성 관리 저장소에 저장한다. (dependentBeanMap)
     4. 빈을 생성한다.
         1. Scope Singleton 인 경우
-            - 추후 보강
+            - 싱글톤 빈을 생성
         2. Scope Prototype 인 경우
-            - 추후 보강
         3. 그 외의 Scope 경우
-            - 추후 보강 
+            - 프로토타입에 대한 전 처리
+            - 프로토타입 빈 생성
+            - 프로토타입에 대한 후처리
     5. 생성된 빈을 반환한다.
     
 
