@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Abstract Autowire Capable Bean Factory"
+title: "Abstract Autowire Capable Bean Factory - 1"
 subtitle: "빈을 생성하는 프로세스"
 ---
 

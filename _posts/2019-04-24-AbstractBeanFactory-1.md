@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Abstract Bean Factory"
+title: "Abstract Bean Factory - 1"
 ---
 
 ## AbstractBeanFacotry 첫번째

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Abstract Autowire Capable Bean Factory"
+title: "Abstract Autowire Capable Bean Factory - 2"
 subtitle: "Create Bean"
 ---
 

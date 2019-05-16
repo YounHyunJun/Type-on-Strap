@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "FactroyBean Registry Support"
+title: "FactroyBean Registry Support - 1"
 ---
 
 ## AbstractBeanFacotry

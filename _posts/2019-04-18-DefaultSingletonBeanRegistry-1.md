@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Default Singleton Bean Registry"
+title: "Default Singleton Bean Registry - 1"
 ---
 
 ## DefaultSingletonBeanRegistry

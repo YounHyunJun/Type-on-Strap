@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Bean Factory"
+title: "Bean Factory - 1"
 ---
 
 ## Bean Factory

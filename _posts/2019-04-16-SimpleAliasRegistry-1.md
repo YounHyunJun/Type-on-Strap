@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Simple Alias Registry"
+title: "Simple Alias Registry - 1"
 ---
 
 ## SimpleAliasRegistry
